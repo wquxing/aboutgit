@@ -28,4 +28,9 @@ git checkout -- filename 当工作区的文件被误删之后，如果版本库�
 
 关联远程库后，第一次推送master的时候使用命令：git push -u origin master,以后每次提交只要有必要，就可以使用 git push origin master命令推送最新的修改.
 
-creating a new branch is quick.
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
