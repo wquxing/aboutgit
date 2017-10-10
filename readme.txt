@@ -27,3 +27,5 @@ git rm filename :在版本库删除文件，删除后记得git commit
 git checkout -- filename 当工作区的文件被误删之后，如果版本库当中还有，可以使用这个命令恢复被误删的文件。注意，如果使用rm删除本地文件并且使用commit提交之后，则无法再回复了，只能使用git checkout HEAD -- filename回退到之前的版本，再使用git checkout的方法恢复。
 
 关联远程库后，第一次推送master的时候使用命令：git push -u origin master,以后每次提交只要有必要，就可以使用 git push origin master命令推送最新的修改.
+
+creating a new branch is quick.
