@@ -34,3 +34,4 @@ git checkout -- filename 当工作区的文件被误删之后，如果版本库�
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+Creating a new branch is quick AND simple.
